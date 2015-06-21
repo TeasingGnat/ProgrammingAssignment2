@@ -21,8 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 ## taking the four variables above this asks whether there is data with getmatrix
-## if there is it grabs that data and prints it 
+## if there is it grabs that data  
 ## otherwise the inverse is calculated
+## it then prints the matrix
 
 cacheSolve <- function(x, ...) {
   m <- x$getmatrix()
