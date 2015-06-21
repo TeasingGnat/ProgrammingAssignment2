@@ -31,7 +31,7 @@ cacheSolve <- function(x, ...) {
     message("getting cached data")
     return(m)
   }
-  data <- x$get() ## if ther is no data above calculates it and stores it then prints it.
+  data <- x$get() ## if there is no data above calculates it and stores it then prints it.
   m <- solve(data,...)
   x$setmatrix(m)
   m
